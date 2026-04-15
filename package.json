@@ -1,6 +1,6 @@
 {
   "name": "yaml-dot-resolve",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Recursive ${...} YAML placeholder substitution: stage-aware config, dotted paths, nested placeholders, and optional defaults (:-).",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
