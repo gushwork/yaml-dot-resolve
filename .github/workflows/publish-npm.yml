@@ -27,7 +27,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22.23.4"
           registry-url: "https://registry.npmjs.org"
 
       - run: npm publish --provenance --access public
@@ -41,7 +41,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22.23.4"
           registry-url: "https://registry.npmjs.org"
 
       - name: Wait for npm registry propagation
